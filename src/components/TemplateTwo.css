@@ -1,0 +1,41 @@
+.resume-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.header {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.experience-section,
+.education-section,
+.achievements-section,
+.languages-section,
+.contact-section,
+.about-section,
+.programming-languages-section {
+  grid-column: span 2;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
